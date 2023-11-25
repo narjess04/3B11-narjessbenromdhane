@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <title>Contact</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/Contact.css">
 </head>
 <body>
 
@@ -18,9 +18,9 @@
 			<nav class="navigation__container">
 				<ul class="navigation__list">
 					<li><a href="index.html" target="_blank">Home</a></li>
-					<li><a href="profil.htm" target="_blank">Portfolio</a></li>
+					<li><a href="¨Profil.htm" target="_blank">Portfolio</a></li>
 					<li><a href="Experience.html" target="_blank">Experience</a></li>
-					<li><a href="contact.html" target="_blank">Contact</a></li>
+					<li><a href="Contact.html" target="_blank">Contact</a></li>
 				</ul>
 			</nav>
 			
@@ -42,13 +42,36 @@
 
 <form method="POST" action="">
 <center>
-<label>First name:</label><input type="text" required placeholder="Narjess" ><br><br>
-<label>Last name:</label><input type="text" required placeholder="Ben Romdhane" ><br><br>
-<label>Email:</label><input type="Email" required placeholder="narjess.benromdhane@esprit.tn" ><br><br>
-<label>message:</label> <textarea></textarea><br><br>
+<table>
+<tr>
+<td><label>First name:</label></td>
+<td><input type="text" required placeholder="narjess" minlength=3></td><br>
+</tr>
+<tr>
+<td><label>Last name:</label></td>
+<td><input type="text" placeholder="ben romdahen" minlength=3></td><br>
+</tr>
+<tr>
+<td><label>Adress:</label></td> 
+<td> <textarea placeholder="esprit rue de celebrat " ></textarea></td><br>
+</tr>
+<tr>
+<td><label>Phone number:</label></td>
+<td> <input type="number" required pattern="[1-9].{8}" placeholder="98264798" ></td><br>
+</tr>
+<tr>
+<td><label>Email:</label></t>
+<td><input type="Email" required placeholder="narjess.benromdhane@esprit.tn" ></td><br><br>
+</tr>
+<tr>
+<td><label>message:</label></td>
+<td> <textarea></textarea></td><br><br>
+</tr>
+
+
+</table>
 
 <input type="submit" value="confirmer">
-
 </form>
 </center>
 		<!-- END SECTION: Contact -->
